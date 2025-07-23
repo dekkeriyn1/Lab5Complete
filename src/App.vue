@@ -1,10 +1,10 @@
 <script setup>
-// import { useTabStore } from "./store/table";
-// const tablesStore = useTabStore();
+import { useTableStore } from "./store/table";
+const tableStore = useTableStore();
 
-// onMounted(async () => {
-//   await tablesStore.fetchTables();
-// });
+onMounted(async () => {
+  await tableStore.fetchTables();
+});
 
 
 
